@@ -1,0 +1,8 @@
+#include <stdio.h
+
+int main(int argc, char** argv){
+	int i = 5;
+	int* ip = &i;
+	*ip++ = 0;
+	printf("%d", *ip);
+}
